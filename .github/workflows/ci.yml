@@ -37,7 +37,10 @@ jobs:
       run: make migrateup
 
     - name: Install golang migrate
-      run: $ curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate-4.15.2.zip | tar xvz
+      run: | 
+        curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate-4.15.2.zip | tar xvz
+        sudo mv migrate-4.15.2 /usr/bin/
+        which migrate
 
     - name: Set up Go
       uses: actions/setup-go@v3
