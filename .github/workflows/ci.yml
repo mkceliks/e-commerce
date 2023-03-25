@@ -38,8 +38,8 @@ jobs:
 
     - name: Install golang migrate
       run: | 
-        curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate-4.15.2.zip | tar xvz
-        sudo mv migrate bin/sh/
+        curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-386.tar.gz | tar xvz
+        sudo mv migrate.linux-386 usr/bin/migrate
         which migrate
 
     - name: Set up Go
