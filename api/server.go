@@ -11,7 +11,6 @@ type Server struct {
 }
 
 func NewServer(store *db.Store) *Server {
-
 	server := &Server{
 		store: store,
 	}
