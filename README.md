@@ -29,6 +29,7 @@ You can see all of the features that i used in this application;
 - Testify library for tests
 - Well architecture
 - Configuration via using Viper
+- Deadlock solvings
 
 # TODOS
 
