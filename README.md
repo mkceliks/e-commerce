@@ -5,15 +5,20 @@ This repository will be include complete bank application with all of the necess
 # Structure of application
 
 - [Introduction](#introduction)
-- [Getting started](#getting-started)
+- [Quick start](#getting-started)
+  - [DB Schema](#db-schema)
   - [Features](#features)
-  - [TODOS](#todos)
+- [TODOS](#todos)
+
 
 # Introduction
 
 This application will be built with an advanced way for golang using postgres. It will be a complete bank application for users. This repository is useful for who have a bit knowledge on golang and improve self with to an advanced level on that programming language and web development. This application includes lot's of good dependencies for mid knowledge developers.
 
 # Getting Started
+
+# DB Schema
+<img src="img/image.jpg" width:200 height:200></img>
 
 # Features
 
@@ -40,6 +45,3 @@ You can see all of the features that i used in this application;
 - All of the api's for finish the application
 - More migrations will be implement
 - CI/CD will be the best for application
-
-# DB Schema for Bank Application
-<img src="img/image.jpg" width:200 height:200></img>
