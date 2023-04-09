@@ -8,7 +8,6 @@ This repository will be include complete bank application with all of the necess
 - [Quick start](#getting-started)
   - [DB Schema](#db-schema)
   - [Features](#features)
-- [TODOS](#todos)
 
 
 # Introduction
@@ -18,30 +17,27 @@ This application will be built with an advanced way for golang using postgres. I
 # Getting Started
 
 # DB Schema
-<img src="img/image.jpg" width:200 height:200></img>
+<img src="img/e-commerce.jpg" width:200 height:200></img>
 
 # Features
 
-You can see all of the features that i used in this application;
+All of the features that will be included in this project;
 
-- Transactions
-- DB Migrations
-- DB connection with Postgres ( in the future, i will implement MongoDB and MySQL too )
-- Docker
-- Makefile ( docker commands implemented too )
-- CI/CD implementation
-- SQLC
-- Testify library for tests
-- Well architecture
-- Configuration via using Viper
-- Deadlock solvings
+- User Registration and Login: Allows users to create an account and log in to the website.
+- Product Catalog: Displays a comprehensive list of products with their descriptions, prices, and images.
+- Shopping Cart: Enables users to add products to their cart and proceed to checkout.
+- Payment Gateway Integration: Provides a secure payment gateway integration for safe and easy online payments.
+- Order Tracking: Enables users to track their orders and delivery status.
+- Shipping and Tax Calculations: Calculates shipping and taxes based on location and weight.
+- Product Reviews and Ratings: Allows users to leave reviews and ratings for products.
+- Wishlists: Enables users to save products they are interested in and return to purchase later.
+- Discounts and Coupons: Offers discounts and coupon codes to users.
+- Multi-Language Support: Supports multiple languages to reach a wider audience.
+- Responsive Design: Offers a responsive design that adjusts to the user's device, including mobile devices.
+- Customizable CMS: Offers a customizable content management system to manage products, categories, and pages.
+- Product Comparison: Allows users to compare similar products.
+- Loyalty Programs: Offers a loyalty program where users can earn rewards or loyalty points for making purchases within a certain timeframe.
+- Subscription Model: Offers a subscription model where users can pay for regular deliveries of certain products.
+- Security Features: Provides security features such as SSL encryption, two-factor authentication, secure server location, and other security measures to protect user payment information.
+- Efficient Performance: Provides efficient performance with fast loading times, optimized images, and other performance features.
 
-# TODOS
-
-- Mock tests
-- Mock DB
-- Kubernetes
-- Jenkins for prenv,staging and prod
-- All of the api's for finish the application
-- More migrations will be implement
-- CI/CD will be the best for application
